@@ -1,1 +1,89 @@
+/*
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+*/
 
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: hsl(227, 10%, 46%);
+  font-stretch: expanded;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: hsl(227, 10%, 46%);
+}
+
+.bg-pic-top {
+  position: absolute;
+  top: -490px;
+  left: -200px;
+}
+
+.bg-pic-btm {
+  position: absolute;
+  bottom: -490px;
+  right: -200px;
+}
+
+.card {
+  margin-top: 150px;
+  padding: 0;
+  background-color: inherit;
+  width: 400px;
+  box-sizing: content-box;
+  border-style: none;
+}
+
+.card-top {
+  border-radius: 10px 10px 0 0;
+  width: 400px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 1;
+  height: 110px;
+  width: 110px;
+  position: relative;
+  bottom: 55px;
+  left: 145px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  left: 5px;
+  top: 5px;
+}
+
+.text-details {
+  background-color: #fff;
+  text-align: center;
+  z-index: 1;
+  border-radius: 0 0 10px 10px;
+}
+
+.age {
+  color: hsl(227, 10%, 46%);
+}
+
+.followers {
+  margin: 20px;
+  padding: 0 30px;
+}
